@@ -1,4 +1,3 @@
-import React from "react";
 import "./Navbar.css";
 import burhan from "../../assets/burhan.svg";
 
