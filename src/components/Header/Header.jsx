@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header">
       <img src={profile_img} alt="Profile picture" />
       <h1>
-        I&apos;m <span>Burhan Faquiri</span>, fullstack developer based in
+        I&apos;m <span>Burhan Faquiri</span>, a full-stack developer based in
         Toronto.
       </h1>
       <p>
