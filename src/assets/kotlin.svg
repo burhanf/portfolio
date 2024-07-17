@@ -1,0 +1,12 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsla(202, 71%, 27%, 1)"/>
+      <stop offset="25%" stop-color="hsla(196, 60%, 37%, 1)"/>
+      <stop offset="50%" stop-color="hsla(190, 50%, 47%, 1)"/>
+      <stop offset="75%" stop-color="hsla(184, 45%, 56%, 1)"/>
+      <stop offset="100%" stop-color="hsla(176, 45%, 66%, 1)"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#gradient)" d="M112.484 112.484H15.516V15.516h96.968L64 64Zm0 0"></path>
+</svg>
