@@ -10,7 +10,7 @@ import python from "../../assets/python.svg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-title">
         <h1>About me</h1>
         <img src={theme_pattern} alt="theme" />
@@ -50,7 +50,7 @@ const About = () => {
             </div>
             <div className="language-icon">
               <img src={git} alt="Git" />
-            </div>  
+            </div>
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types, no-unused-vars
 const ExperienceItem = ({ date, title, company, details, logo }) => {
   return (
     <ol className="flex flex-col md:flex-row relative border-l border-gradient">

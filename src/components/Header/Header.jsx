@@ -3,7 +3,7 @@ import profile_img from "../../assets/profile_img.svg";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div id="home" className="header">
       <img src={profile_img} alt="Profile picture" />
       <h1>
         I&apos;m <span>Burhan Faquiri</span>, a full-stack developer based in

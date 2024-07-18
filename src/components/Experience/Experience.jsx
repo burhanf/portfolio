@@ -5,7 +5,7 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <>
+    <div id="experience">
       <div className="experience">
         <div className="experience-title">
           <h1>Experience</h1>
@@ -26,7 +26,7 @@ const Experience = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

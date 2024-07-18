@@ -1,9 +1,12 @@
 <svg width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 9.72421C0 8.80351 0.798853 8.08636 1.71422 8.18532L30.1637 11.2609C33.6717 11.6402 36.6285 8.67298 36.2369 5.16633C35.8336 1.55539 32.1094 -0.6855 28.7302 0.649534L2.11659 11.1638C1.10075 11.5651 0 10.8165 0 9.72421Z" fill="url(#paint0_linear_2164_71)"/>
-<defs>
-<linearGradient id="paint0_linear_2164_71" x1="136.358" y1="7.62354" x2="122.281" y2="52.8563" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DF8908"/>
-<stop offset="1" stop-color="#B415FF"/>
-</linearGradient>
-</defs>
+  <path d="M0 9.72421C0 8.80351 0.798853 8.08636 1.71422 8.18532L30.1637 11.2609C33.6717 11.6402 36.6285 8.67298 36.2369 5.16633C35.8336 1.55539 32.1094 -0.6855 28.7302 0.649534L2.11659 11.1638C1.10075 11.5651 0 10.8165 0 9.72421Z" fill="url(#paint0_linear_2160_23)"/>
+  <defs>
+    <linearGradient id="paint0_linear_2160_23" x1="851.318" y1="47.553" x2="756.751" y2="339.402" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="hsla(202, 71%, 27%, 1)"/>
+      <stop offset="25%" stop-color="hsla(196, 60%, 37%, 1)"/>
+      <stop offset="50%" stop-color="hsla(190, 50%, 47%, 1)"/>
+      <stop offset="75%" stop-color="hsla(184, 45%, 56%, 1)"/>
+      <stop offset="100%" stop-color="hsla(176, 45%, 66%, 1)"/>
+    </linearGradient>
+  </defs>
 </svg>
