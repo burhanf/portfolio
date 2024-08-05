@@ -43,7 +43,13 @@ const Navbar = () => {
       </ul>
 
       <ul>
-        <div className="nav-connect">Let&apos;s Connect!</div>
+        <a
+          href="https://www.linkedin.com/in/burhanfaquiri/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="nav-connect">Let&apos;s Connect!</div>
+        </a>
       </ul>
     </div>
   );

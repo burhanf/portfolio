@@ -13,14 +13,27 @@ const Projects = () => {
       <div className="projects-container">
         {project_data.map((project, index) => {
           return (
-            <img key={index} src={project.imgUrl} alt={project.title}></img>
+            <a
+              key={index}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={project.imgUrl} alt={project.title}></img>
+            </a>
           );
         })}
       </div>
-      <div className="show-more">
-        <p>See More</p>
-        <img src={arrow_icon} alt="" />
-      </div>
+      <a
+        href="https://github.com/burhanf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="show-more">
+          <p>See More</p>
+          <img src={arrow_icon} alt="" />
+        </div>
+      </a>
     </div>
   );
 };

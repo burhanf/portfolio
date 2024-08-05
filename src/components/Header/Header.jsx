@@ -14,8 +14,16 @@ const Header = () => {
         gained skills in DevOps, Android and full-stack development.
       </p>
       <div className="header-action">
-        <div className="header-connect">Connect with me</div>
-        <div className="header-resume">My resume</div>
+        <a
+          href="https://www.linkedin.com/in/burhanfaquiri/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="header-connect">Connect with me</div>
+        </a>
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <div className="header-resume">My resume</div>
+        </a>
       </div>
     </div>
   );
