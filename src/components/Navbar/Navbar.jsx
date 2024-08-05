@@ -1,16 +1,40 @@
 import "./Navbar.css";
 import burhan from "../../assets/burhan.svg";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import underline from "../../assets/nav_underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import menu_open from "../../assets/menu_open.svg";
+import menu_close from "../../assets/menu_close.svg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
 
+  const menuRef = useRef();
+
+  const openMenu = () => {
+    menuRef.current.style.right = "0";
+  };
+
+  const closeMenu = () => {
+    menuRef.current.style.right = "-350px";
+  };
   return (
     <div className="navbar">
       <img className="icon-size" src={burhan} alt="Arabic Burhan" />
-      <ul className="nav-menu">
+      <img
+        src={menu_open}
+        onClick={openMenu}
+        alt="open menu"
+        className="nav-mob-open"
+      />
+      <ul ref={menuRef} className="nav-menu">
+        <img
+          src={menu_close}
+          alt="closed menu"
+          onClick={closeMenu}
+          className="nav-mob-close"
+        />
+
         <li>
           <AnchorLink className="anchor-link" href="#home">
             <p onClick={() => setMenu("home")}>Home</p>
