@@ -61,6 +61,10 @@
 }
 
 @media (max-width: 768px) {
+  .icon-size {
+    width: 200px;
+    height: 200px;
+  }
   .navbar {
     margin: 20px 50px;
   }
